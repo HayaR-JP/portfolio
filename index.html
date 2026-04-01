@@ -7,9 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+
   <nav>
     <div class="nav-logo">RH.dev</div>
     <ul class="nav-links">
@@ -20,25 +20,23 @@
     </ul>
   </nav>
 
-  <!-- HERO -->
   <section class="hero" style="border-top: none; padding-top: 120px;">
     <div>
-       <img src="assets/images/ryota_pic.jpg"
-      alt="Ryota Hayakawa"
-      style="width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:20px;border:2px solid rgba(200,245,66,0.3);">
-      <div class="hero-label">FULL-STACK ENGINEER</div>
-
+      <img src="assets/images/ryota_pic.jpg"
+        alt="Ryota Hayakawa"
+        style="width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:20px;border:2px solid rgba(200,245,66,0.3);">
+      <div class="hero-label">FULL-STACK DEVELOPER</div>
       <h1 class="hero-name">Ryota<br><em>Hayakawa</em></h1>
       <p class="hero-desc">
-        Ruby on Rails・JavaScript・LLM を軸に、ファッションとテクノロジーをつなぐプロダクトを作るエンジニアです。
-        現場での接客経験を活かし、使い手の視点でプロダクト開発に向き合います。
+        Ruby on Rails・React・LLM を軸に、ファッションとテクノロジーをつなぐプロダクトを作るエンジニアです。
+        現場での接客・営業経験を活かし、使い手の視点でプロダクト開発に向き合います。
       </p>
       <a href="#works" class="hero-cta">制作物を見る →</a>
     </div>
     <div class="hero-right">
       <div class="hero-stats-row">
         <div class="hero-stat">
-          <div class="hero-stat-num">3+</div>
+          <div class="hero-stat-num">2+</div>
           <div class="hero-stat-label">PROJECTS</div>
         </div>
         <div class="hero-stat">
@@ -50,8 +48,8 @@
         <div class="hero-stat-label" style="margin-bottom:12px;">MAIN STACK</div>
         <div style="display:flex; flex-wrap:wrap; gap:8px;">
           <span style="font-family:var(--font-mono);font-size:11px;padding:4px 12px;border:1px solid var(--border);color:var(--muted);">Ruby on Rails</span>
-          <span style="font-family:var(--font-mono);font-size:11px;padding:4px 12px;border:1px solid var(--border);color:var(--muted);">JavaScript</span>
-          <span style="font-family:var(--font-mono);font-size:11px;padding:4px 12px;border:1px solid var(--border);color:var(--muted);">Stimulus</span>
+          <span style="font-family:var(--font-mono);font-size:11px;padding:4px 12px;border:1px solid var(--border);color:var(--muted);">React</span>
+          <span style="font-family:var(--font-mono);font-size:11px;padding:4px 12px;border:1px solid var(--border);color:var(--muted);">TypeScript</span>
           <span style="font-family:var(--font-mono);font-size:11px;padding:4px 12px;border:1px solid var(--border);color:var(--muted);">PostgreSQL</span>
           <span style="font-family:var(--font-mono);font-size:11px;padding:4px 12px;border:1px solid var(--border);color:var(--accent);border-color:rgba(200,245,66,0.3);">LLM API</span>
         </div>
@@ -59,70 +57,84 @@
     </div>
   </section>
 
-  <!-- SKILLS -->
   <section id="skills">
     <div class="section-label fade-in">01 — SKILLS</div>
     <h2 class="section-title fade-in">技術スタック</h2>
     <div class="skills-grid fade-in">
       <div class="skill-item">
-        <div class="skill-name">Ruby on Rails</div>
+        <div class="skill-name">Ruby / Ruby on Rails</div>
         <div class="skill-level"><div class="skill-level-fill" style="width:75%"></div></div>
         <div class="skill-note">MVC・REST API・Active Record</div>
       </div>
       <div class="skill-item">
-        <div class="skill-name">JavaScript / Stimulus</div>
-        <div class="skill-level"><div class="skill-level-fill" style="width:65%;animation-delay:0.1s"></div></div>
-        <div class="skill-note">DOM操作・非同期処理・Hotwire</div>
+        <div class="skill-name">React / TypeScript</div>
+        <div class="skill-level"><div class="skill-level-fill" style="width:60%;animation-delay:0.1s"></div></div>
+        <div class="skill-note">Hooks・コンポーネント設計・Vite</div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-level"><div class="skill-level-fill" style="width:65%;animation-delay:0.2s"></div></div>
+        <div class="skill-note">DOM操作・非同期処理・Stimulus</div>
       </div>
       <div class="skill-item">
         <div class="skill-name">HTML / CSS</div>
-        <div class="skill-level"><div class="skill-level-fill" style="width:80%;animation-delay:0.2s"></div></div>
+        <div class="skill-level"><div class="skill-level-fill" style="width:80%;animation-delay:0.3s"></div></div>
         <div class="skill-note">レスポンシブ・Flexbox・Grid</div>
       </div>
       <div class="skill-item">
         <div class="skill-name">SQL / PostgreSQL</div>
-        <div class="skill-level"><div class="skill-level-fill" style="width:60%;animation-delay:0.3s"></div></div>
+        <div class="skill-level"><div class="skill-level-fill" style="width:60%;animation-delay:0.4s"></div></div>
         <div class="skill-note">クエリ設計・リレーション</div>
       </div>
       <div class="skill-item">
-        <div class="skill-name">LLM API (OpenAI等)</div>
-        <div class="skill-level"><div class="skill-level-fill" style="width:55%;animation-delay:0.4s"></div></div>
+        <div class="skill-name">LLM API</div>
+        <div class="skill-level"><div class="skill-level-fill" style="width:55%;animation-delay:0.5s"></div></div>
         <div class="skill-note">プロンプト設計・API連携</div>
       </div>
       <div class="skill-item">
         <div class="skill-name">Git / GitHub</div>
-        <div class="skill-level"><div class="skill-level-fill" style="width:70%;animation-delay:0.5s"></div></div>
+        <div class="skill-level"><div class="skill-level-fill" style="width:70%;animation-delay:0.6s"></div></div>
         <div class="skill-note">ブランチ運用・PR・レビュー</div>
       </div>
       <div class="skill-item">
-        <div class="skill-name">Ruby</div>
-        <div class="skill-level"><div class="skill-level-fill" style="width:70%;animation-delay:0.6s"></div></div>
-        <div class="skill-note">オブジェクト指向・クラス設計・OOP</div>
+        <div class="skill-name">Cloudinary</div>
+        <div class="skill-level"><div class="skill-level-fill" style="width:50%;animation-delay:0.7s"></div></div>
+        <div class="skill-note">画像アップロード・Active Storage</div>
       </div>
     </div>
   </section>
 
-  <!-- WORKS -->
   <section id="works">
     <div class="section-label fade-in">02 — WORKS</div>
     <h2 class="section-title fade-in">制作物</h2>
     <div class="works-grid">
 
-      <!-- Featured -->
       <div class="work-card work-featured fade-in">
-        <div class="work-thumb-placeholder">SCREENSHOT</div>
+        <div class="slideshow">
+          <img src="assets/images/pokeclo_1.png" alt="Pokeclo Landing Page" class="slide active work-thumb">
+          <img src="assets/images/pokeclo_2.png" alt="Pokeclo Closet" class="slide work-thumb">
+          <img src="assets/images/pokeclo_3.png" alt="Pokeclo AI" class="slide work-thumb">
+          <button class="slide-btn prev" onclick="changeSlide(this, -1)">&#8249;</button>
+          <button class="slide-btn next" onclick="changeSlide(this, 1)">&#8250;</button>
+          <div class="slide-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
         <div class="work-body" style="padding: 36px;">
           <div class="work-tags">
             <span class="work-tag">Rails</span>
             <span class="work-tag">LLM API</span>
             <span class="work-tag">PostgreSQL</span>
+            <span class="work-tag">Cloudinary</span>
             <span class="work-tag" style="border-color:rgba(200,245,66,0.3);color:var(--accent);">FEATURED</span>
           </div>
           <h3 class="work-title" style="font-size:28px;">Pokeclo</h3>
           <p class="work-desc">
-            クローゼットをどこにでも持ち歩けるファッションアプリ。
-            自分の服をアプリに登録しておくだけで、お店での「これ、家の服と合うかな？」という悩みをAIが解決。
-            ファッションが定まっていない20代に向けた、コーディネート提案サービス。
+            自分の服をデジタルで管理し、コーディネートを作成できるワードローブ管理Webアプリ。
+            服の画像をアップロードしてアイテムを整理し、AIがコーディネートを提案。
+            日々の服選びをもっと簡単にすることを目指して開発。
           </p>
           <div class="work-links">
             <a href="https://github.com/GerthIII/pokeclo" class="work-link">GitHub →</a>
@@ -130,36 +142,39 @@
         </div>
       </div>
 
-      <!-- Card 2 -->
       <div class="work-card fade-in">
         <div class="work-thumb-placeholder">SCREENSHOT</div>
         <div class="work-body">
           <div class="work-tags">
-            <span class="work-tag">Rails</span>
-            <span class="work-tag">Stimulus</span>
-            <span class="work-tag">SQL</span>
+            <span class="work-tag">React</span>
+            <span class="work-tag">TypeScript</span>
+            <span class="work-tag">Vite</span>
           </div>
-          <h3 class="work-title">タスク管理アプリ</h3>
-          <p class="work-desc">チームのタスクをリアルタイムで共有・管理するツール。Stimulusによるドラッグ&ドロップを実装。</p>
+          <h3 class="work-title">Todo App</h3>
+          <p class="work-desc">
+            優先度・期限日・編集機能を備えたタスク管理アプリ。「やること」と「完了済み」の2つのエリアにタスクをドラッグして移動させるだけで進捗を管理できる。データはブラウザに自動保存。
+          </p>
           <div class="work-links">
-            <a href="#" class="work-link">GitHub →</a>
+            <a href="https://github.com/HayaR-JP/todo-app" class="work-link">GitHub →</a>
           </div>
         </div>
       </div>
 
-      <!-- Card 3 -->
       <div class="work-card fade-in">
         <div class="work-thumb-placeholder">SCREENSHOT</div>
         <div class="work-body">
           <div class="work-tags">
-            <span class="work-tag">Rails</span>
+            <span class="work-tag">HTML</span>
+            <span class="work-tag">CSS</span>
             <span class="work-tag">JavaScript</span>
-            <span class="work-tag">OOP</span>
           </div>
-          <h3 class="work-title">ポートフォリオサイト</h3>
-          <p class="work-desc">このサイト自体。HTML/CSS/JSで構築しGitHub Pagesで公開。ダークテーマとアニメーションにこだわった。</p>
+          <h3 class="work-title">Portfolio Site</h3>
+          <p class="work-desc">
+            このサイト自体。HTML/CSS/JSで構築しVercelで公開。ダークテーマとスクロールアニメーションにこだわった。
+          </p>
           <div class="work-links">
-            <a href="#" class="work-link">GitHub →</a>
+            <a href="https://github.com/HayaR-JP/portfolio" class="work-link">GitHub →</a>
+            <a href="https://ryotahayakawa.vercel.app" class="work-link">Demo →</a>
           </div>
         </div>
       </div>
@@ -167,7 +182,6 @@
     </div>
   </section>
 
-  <!-- CAREER -->
   <section id="career">
     <div class="section-label fade-in">03 — CAREER</div>
     <h2 class="section-title fade-in">経歴</h2>
@@ -177,29 +191,28 @@
         <div>
           <div class="career-role">エンジニアリングブートキャンプ</div>
           <div class="career-company">@ Le Wagon Tokyo</div>
-          <div class="career-detail">Ruby on Rails・JavaScript・SQL・LLM連携を集中学習。3ヶ月間で複数のプロダクトを開発。最終プロジェクトとしてPokecloを制作。</div>
+          <div class="career-detail">Ruby on Rails・JavaScript・React・TypeScript・LLM連携を集中学習。3ヶ月間で複数のプロダクトを開発。最終プロジェクトとしてPokecloを制作。</div>
         </div>
       </div>
       <div class="career-item">
-        <div class="career-period">2023.02~2025.12</div>
+        <div class="career-period">2023.02 — 2025.12</div>
         <div>
           <div class="career-role">フリーランス 配送ドライバー</div>
-          <div class="career-company">フリーランス</div>
-          <div class="career-detail">自律的なスケジュール管理と業務効率化を実践。現場での経験からテクノロジーで課題解決することへの関心が高まりエンジニアを志す。</div>
+          <div class="career-company">@ 個人</div>
+          <div class="career-detail">個人セールスドライバーとして担当エリアでの配送業務および顧客対応を担当。サービスの提案や顧客との関係構築を通じて、円滑な業務運営と顧客満足度の向上に努めた。</div>
         </div>
       </div>
       <div class="career-item">
-        <div class="career-period">2021.04~2022.08</div>
+        <div class="career-period">2021.04 — 2022.08</div>
         <div>
           <div class="career-role">携帯ショップ販売スタッフ</div>
           <div class="career-company">@ 株式会社ベルパーク</div>
-          <div class="career-detail">携帯キャリアの代理店にて接客・販売を担当。お客様の課題をヒアリングして最適な提案をする経験が、ユーザー視点のプロダクト開発に活きている。</div>
+          <div class="career-detail">全国で携帯電話ショップを運営する会社にて、料金プランや端末の提案・契約手続きを担当。チームで売上目標達成に向けて取り組み、お客様のニーズに合わせた最適なサービスを提供。この接客経験がユーザー視点のプロダクト開発に活きている。</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section id="contact">
     <div class="section-label fade-in">04 — CONTACT</div>
     <h2 class="section-title fade-in">連絡先</h2>
@@ -215,12 +228,12 @@
         </a>
         <a href="https://github.com/HayaR-JP" class="contact-link-row">
           <span class="contact-link-label">GITHUB</span>
-          <span class="contact-link-val"><i class="fab fa-github"></i></span>
+          <span class="contact-link-val">github.com/HayaR-JP</span>
           <span class="contact-link-arrow">↗</span>
         </a>
-        <a href="https://linkedin.com/in/ryotahayakawa" class="contact-link-row">
+        <a href="https://linkedin.com/in/ryota-hayakawa" class="contact-link-row">
           <span class="contact-link-label">LINKEDIN</span>
-          <span class="contact-link-val"><i class="fa-brands fa-linkedin"></i></span>
+          <span class="contact-link-val">linkedin.com/in/ryota-hayakawa</span>
           <span class="contact-link-arrow">↗</span>
         </a>
       </div>
@@ -242,6 +255,21 @@
     }, { threshold: 0.1 });
 
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    function changeSlide(btn, dir) {
+      const slideshow = btn.closest('.slideshow')
+      const slides = slideshow.querySelectorAll('.slide')
+      const dots = slideshow.querySelectorAll('.dot')
+      let current = [...slides].findIndex(s => s.classList.contains('active'))
+
+      slides[current].classList.remove('active')
+      dots[current].classList.remove('active')
+
+      current = (current + dir + slides.length) % slides.length
+
+      slides[current].classList.add('active')
+      dots[current].classList.add('active')
+    }
   </script>
 </body>
 </html>
